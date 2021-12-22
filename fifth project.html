@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>fifth project</title>
+        <link rel="stylesheet" href="fifth project.css"/>
+        <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-----header----->
+        <div class="header">
+            <div class="container">
+                <div class="heading">
+                    <h2>
+                     Welcome to Prism, a<br> free responsive site template by<br><span>TEMPLATED</span>
+                    </h2>
+                </div>
+                <div class="lorem">
+                    <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Phasellus aliquam et tempus lorem dolor feugiat adipiscing lorem. </p>
+                    <button id="butt" onmousemove="buttHover()" onmouseout="buttRemoHover()">GET STARTED</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!----magna---->
+        <div class="magna">
+            <div class="container">
+                <div class="feugiat">
+                    <h2>Magna feugiat adipiscing</h2>
+                    <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus aliquam et tempus lorem feugiat adipiscing lorem. Morbi pharetra vitae felis placerat pharetra. Nulla risus orci, dapibus id malesuada et nec, malesuada quis orci. Pellentesque eget consequat.</p>
+                    <button onclick="show()">learn more </button>
+                </div>
+                <div class="Ipsum" id="show">
+                 <p><i class="fa fa-arrow-right fa-lg"></i>Ipsum nisl sed cursus magna</p>
+      	  	  	  <p><i class="fa fa-arrow-right fa-lg"></i>Amet veroeros sed aliquam consequat</p>
+      	  	  	  <p><i class="fa fa-arrow-right fa-lg"></i>Tempus lorem adipiscing et lorem</p>
+      	  	  	  <p><i class="fa fa-arrow-right fa-lg"></i>Morbi pharetra vitae felis placerat</p>
+      	  	  	  <p><i class="fa fa-arrow-right fa-lg"></i>Pharetra nulla risus orci dapibus</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!----pharetra---->
+        <div class="pharetra">
+            <div class="container">
+                <div class="part">
+                    <div class="image"><img src="images/pic01.jpg" id="hovered" onmouseout='hovered()'/></div>
+                    <div class="details">
+                        <h2>Ipsum pharetra tempus</h2>
+                        <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada quis orci. Pellentesque eget consequat. </p>
+                        <button>details</button><br><br>
+                        you hovered : <span id="span"></span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="part">
+                    <div class="image"><img src="images/pic02.jpg"/></div>
+                    <div class="details">
+                        <h2>Ipsum pharetra tempus</h2>
+                        <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada quis orci. Pellentesque eget consequat. </p>
+                        <button>details</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="part">
+                    <div class="image"><img src="images/pic03.jpg"/></div>
+                    <div class="details">
+                        <h2>Ipsum pharetra tempus</h2>
+                        <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada quis orci. Pellentesque eget consequat. </p>
+                        <button>details</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!----orci---->
+        <div class="orci">
+            <div class="container">
+                <div class="morbi">
+                    <h2>Orci malesuada</h2>
+                    <p>Morbi pharetra vitae felis placerat pharetra. Nulla risus orci, dapibus id malesuada et nec, malesuada quis pellentesque eget.</p>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <input type="submit" onclick="goup()" placeholder="send message">
+                </div>
+                <div class='twitter'>
+                    <p class="Clicks" onmousemove="underLine()" onmouseout="noLine()" onclick="twi()"> <i class="fab fa-twitter" > </i>twitter.com/untitled-tld</p>
+      	  	  	  <p class="Clicks" onmousemove="underLine()" onmouseout="noLine()" onclick="fac()" ><i class="fab fa-facebook-f" ></i>facebook.com/untitled-tld</p>
+      	  	  	  <p class="Clicks" onmousemove="underLine()" onmouseout="noLine()" onclick="inst()" ><i class="fab fa-instagram" ></i>instagram.com/untitled-tld</p>
+      	  	  	  <p class="Clicks" onmousemove="underLine()" onmouseout="noLine()" onclick="yahoo()" ><i class="fa fa-envelope" ></i>information@untitled.tld</p>
+      	  	  	  <p class="Clicks" onmousemove="underLine()" onmouseout="noLine()" onclick="google()" ><i class="fa fa-home" ></i>1234 Somewhere Road Suite 9823</p>
+                </div>
+            </div>
+        </div>
+        <!----footer---->
+        <div class="footer">
+            <div class="container">
+                <p>&copy; Untitled. All rights reserved. Images: Unsplash. Design: TEMPLATED.</p>
+            </div>
+        </div>
+        <script src="fifth project.js"></script>
+    </body>
+</html>
